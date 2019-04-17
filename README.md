@@ -16,7 +16,7 @@ This project is tested only on ***Node v8.15.1***.  While earlier versions of no
 
 Steps to run:
 
-1 - Navigate to the projects main folder (where package.json file is located) 
+1 - Navigate to the projects main folder (where `package.json` file is located) 
 
 2 - Open terminal on this folder
 
@@ -31,12 +31,13 @@ Steps to run:
 
 5 - To execute the test suite, run `npm run test`
 
-
 Note: While installing through sudo command - you need to provide System admin password.
 
-##### Allure
+##### Reports and results with Allure
 
-To generate and view an allure report locally, run `npm run allure-report`. The Allure report created will be this one:
+To generate and view an allure report locally, ****AFTER RUNNING TESTS***, run `npm run allure-report`. 
+
+The Allure report created will be this one:
 
 <img src="https://i.snag.gy/GcvUsI.jpg" width="650px">
 
