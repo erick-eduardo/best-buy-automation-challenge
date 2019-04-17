@@ -67,7 +67,7 @@ WebdriverIO uses several different types of test reporters to communicate pass/f
 
 To generate and view an allure report locally, run `npm run allure-report`. The Allure report created will be this one:
 
-![](https://i.snag.gy/GcvUsI.jpg =450x)
+<img src="https://i.snag.gy/GcvUsI.jpg" width="650px">
 
 
 ##### Using Cucumber JavaScript framework
