@@ -1,0 +1,280 @@
+{
+  "uid" : "53282130244e6333",
+  "name" : "I am on the home page",
+  "fullName" : "End to end testing on BestBuy Performing a search operation and adding items to Cart.I am on the home page",
+  "historyId" : "cd2145231158cca82b1d30b66538c45a",
+  "time" : {
+    "start" : 1555526571321,
+    "stop" : 1555526572672,
+    "duration" : 1351
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/url",
+      "time" : {
+        "start" : 1555526571321,
+        "stop" : 1555526572553,
+        "duration" : 1232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a9615421e9f4342",
+        "name" : "Request",
+        "source" : "4a9615421e9f4342.json",
+        "type" : "application/json",
+        "size" : 41
+      }, {
+        "uid" : "77ddafc5a6e5ce6d",
+        "name" : "Response",
+        "source" : "77ddafc5a6e5ce6d.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element",
+      "time" : {
+        "start" : 1555526572553,
+        "stop" : 1555526572568,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2b3c5fe7064286c",
+        "name" : "Request",
+        "source" : "b2b3c5fe7064286c.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "8447ad1723e742ca",
+        "name" : "Response",
+        "source" : "8447ad1723e742ca.json",
+        "type" : "application/json",
+        "size" : 599
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/elements",
+      "time" : {
+        "start" : 1555526572569,
+        "stop" : 1555526572584,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9226f282ad89f4d3",
+        "name" : "Request",
+        "source" : "9226f282ad89f4d3.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "f7d9efc36e22886a",
+        "name" : "Response",
+        "source" : "f7d9efc36e22886a.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element",
+      "time" : {
+        "start" : 1555526572585,
+        "stop" : 1555526572622,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6ce971019c0e467",
+        "name" : "Request",
+        "source" : "e6ce971019c0e467.json",
+        "type" : "application/json",
+        "size" : 74
+      }, {
+        "uid" : "3a6b9a7c4d622a5",
+        "name" : "Response",
+        "source" : "3a6b9a7c4d622a5.json",
+        "type" : "application/json",
+        "size" : 635
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/elements",
+      "time" : {
+        "start" : 1555526572622,
+        "stop" : 1555526572633,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "93a37b60188a6c66",
+        "name" : "Request",
+        "source" : "93a37b60188a6c66.json",
+        "type" : "application/json",
+        "size" : 74
+      }, {
+        "uid" : "ee4efd9d4be7031",
+        "name" : "Response",
+        "source" : "ee4efd9d4be7031.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element",
+      "time" : {
+        "start" : 1555526572633,
+        "stop" : 1555526572634,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8859e3cf04c7e5c8",
+        "name" : "Request",
+        "source" : "8859e3cf04c7e5c8.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "7dde647b53f4bb09",
+        "name" : "Response",
+        "source" : "7dde647b53f4bb09.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/elements",
+      "time" : {
+        "start" : 1555526572635,
+        "stop" : 1555526572652,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "61aa5d6e4da8e3f2",
+        "name" : "Request",
+        "source" : "61aa5d6e4da8e3f2.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "611070fbe758a51e",
+        "name" : "Response",
+        "source" : "611070fbe758a51e.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element/0.9827547010404749-1/displayed",
+      "time" : {
+        "start" : 1555526572653,
+        "stop" : 1555526572671,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b2e6ccf54073303",
+        "name" : "Response",
+        "source" : "4b2e6ccf54073303.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "End to end testing on BestBuy"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation and adding items to Cart"
+  }, {
+    "name" : "suite",
+    "value" : "End to end testing on BestBuy Performing a search operation and adding items to Cart"
+  }, {
+    "name" : "testClass",
+    "value" : "End to end testing on BestBuy Performing a search operation and adding items to Cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "End to end testing on BestBuy Performing a search operation and adding items to Cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "53282130244e6333.json",
+  "parameterValues" : [ "chrome" ]
+}

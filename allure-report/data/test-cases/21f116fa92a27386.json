@@ -1,0 +1,220 @@
+{
+  "uid" : "21f116fa92a27386",
+  "name" : "I validate cart is empty",
+  "fullName" : "End to end testing on BestBuy Performing a search operation and adding items to Cart.I validate cart is empty",
+  "historyId" : "3336113b323419aaa9a7f70260b63ed0",
+  "time" : {
+    "start" : 1555526605471,
+    "stop" : 1555526606055,
+    "duration" : 584
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element",
+      "time" : {
+        "start" : 1555526605472,
+        "stop" : 1555526605494,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d11365184228bb39",
+        "name" : "Request",
+        "source" : "d11365184228bb39.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "7f8de1923a0eeef6",
+        "name" : "Response",
+        "source" : "7f8de1923a0eeef6.json",
+        "type" : "application/json",
+        "size" : 629
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/elements",
+      "time" : {
+        "start" : 1555526605496,
+        "stop" : 1555526605597,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9fe85f13a31542e",
+        "name" : "Request",
+        "source" : "f9fe85f13a31542e.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "68fafcbbd9f2c716",
+        "name" : "Response",
+        "source" : "68fafcbbd9f2c716.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/elements",
+      "time" : {
+        "start" : 1555526605996,
+        "stop" : 1555526606007,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6bfcc9924afba177",
+        "name" : "Request",
+        "source" : "6bfcc9924afba177.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "e19e1b419b25cc03",
+        "name" : "Response",
+        "source" : "e19e1b419b25cc03.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element/0.7872889156945526-3/displayed",
+      "time" : {
+        "start" : 1555526606007,
+        "stop" : 1555526606027,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c4e590314923f2bb",
+        "name" : "Response",
+        "source" : "c4e590314923f2bb.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element",
+      "time" : {
+        "start" : 1555526606028,
+        "stop" : 1555526606036,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56fd579d3ed99c74",
+        "name" : "Request",
+        "source" : "56fd579d3ed99c74.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "d1e0724d66d6230",
+        "name" : "Response",
+        "source" : "d1e0724d66d6230.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element/0.7872889156945526-3/text",
+      "time" : {
+        "start" : 1555526606038,
+        "stop" : 1555526606054,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "854f3edc5a174b76",
+        "name" : "Response",
+        "source" : "854f3edc5a174b76.json",
+        "type" : "application/json",
+        "size" : 124
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "End to end testing on BestBuy"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation and adding items to Cart"
+  }, {
+    "name" : "suite",
+    "value" : "End to end testing on BestBuy Performing a search operation and adding items to Cart"
+  }, {
+    "name" : "testClass",
+    "value" : "End to end testing on BestBuy Performing a search operation and adding items to Cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "I validate cart is empty"
+  }, {
+    "name" : "package",
+    "value" : "End to end testing on BestBuy Performing a search operation and adding items to Cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21f116fa92a27386.json",
+  "parameterValues" : [ "chrome" ]
+}

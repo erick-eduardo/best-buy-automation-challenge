@@ -1,0 +1,193 @@
+{
+  "uid" : "4960ab53a044f93c",
+  "name" : "I click Saved Items menu link",
+  "fullName" : "End to end testing on BestBuy Performing a search operation and adding items to Saved Items section.I click Saved Items menu link",
+  "historyId" : "b903d277a22c21e47655617f07007133",
+  "time" : {
+    "start" : 1555526567718,
+    "stop" : 1555526569177,
+    "duration" : 1459
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element",
+      "time" : {
+        "start" : 1555526567719,
+        "stop" : 1555526567732,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "470b62a61e03e8a2",
+        "name" : "Request",
+        "source" : "470b62a61e03e8a2.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "c5701fe715167c42",
+        "name" : "Response",
+        "source" : "c5701fe715167c42.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/elements",
+      "time" : {
+        "start" : 1555526567735,
+        "stop" : 1555526567747,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9695776a5145e082",
+        "name" : "Request",
+        "source" : "9695776a5145e082.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "2cc6fa7a97c263c2",
+        "name" : "Response",
+        "source" : "2cc6fa7a97c263c2.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element/0.7678197496879946-62/displayed",
+      "time" : {
+        "start" : 1555526567747,
+        "stop" : 1555526567760,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce91ad137f9f4cf5",
+        "name" : "Response",
+        "source" : "ce91ad137f9f4cf5.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element",
+      "time" : {
+        "start" : 1555526567760,
+        "stop" : 1555526567768,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "38d6b7ced0d59f61",
+        "name" : "Request",
+        "source" : "38d6b7ced0d59f61.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "bacc49544aa5430f",
+        "name" : "Response",
+        "source" : "bacc49544aa5430f.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element/0.7678197496879946-62/click",
+      "time" : {
+        "start" : 1555526567770,
+        "stop" : 1555526569175,
+        "duration" : 1405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f8f4fecb33dfa3a8",
+        "name" : "Response",
+        "source" : "f8f4fecb33dfa3a8.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "End to end testing on BestBuy"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation and adding items to Saved Items section"
+  }, {
+    "name" : "suite",
+    "value" : "End to end testing on BestBuy Performing a search operation and adding items to Saved Items section"
+  }, {
+    "name" : "testClass",
+    "value" : "End to end testing on BestBuy Performing a search operation and adding items to Saved Items section"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click Saved Items menu link"
+  }, {
+    "name" : "package",
+    "value" : "End to end testing on BestBuy Performing a search operation and adding items to Saved Items section"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4960ab53a044f93c.json",
+  "parameterValues" : [ "chrome" ]
+}

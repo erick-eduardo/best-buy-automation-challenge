@@ -1,0 +1,220 @@
+{
+  "uid" : "a3b9405722fc3992",
+  "name" : "I change quantity amount to 4",
+  "fullName" : "End to end testing on BestBuy Performing a search operation and adding items to Cart, increasing quantity and clearing cart after.I change quantity amount to 4",
+  "historyId" : "72655b45d1b1e1f33a56123415542e51",
+  "time" : {
+    "start" : 1555526633618,
+    "stop" : 1555526633810,
+    "duration" : 192
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/elements",
+      "time" : {
+        "start" : 1555526633619,
+        "stop" : 1555526633631,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b96ab795361bcc78",
+        "name" : "Request",
+        "source" : "b96ab795361bcc78.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "9ebf0a655a7895fc",
+        "name" : "Response",
+        "source" : "9ebf0a655a7895fc.json",
+        "type" : "application/json",
+        "size" : 159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/elements",
+      "time" : {
+        "start" : 1555526633633,
+        "stop" : 1555526633640,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e61531f068fb58a",
+        "name" : "Request",
+        "source" : "e61531f068fb58a.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "35ee6394efc6f2e4",
+        "name" : "Response",
+        "source" : "35ee6394efc6f2e4.json",
+        "type" : "application/json",
+        "size" : 159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element/0.872646226318444-2/displayed",
+      "time" : {
+        "start" : 1555526633640,
+        "stop" : 1555526633653,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c4533772a43548a7",
+        "name" : "Response",
+        "source" : "c4533772a43548a7.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/elements",
+      "time" : {
+        "start" : 1555526633653,
+        "stop" : 1555526633661,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f31f4e7bd5e35e9e",
+        "name" : "Request",
+        "source" : "f31f4e7bd5e35e9e.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "ea355fb0380e94e0",
+        "name" : "Response",
+        "source" : "ea355fb0380e94e0.json",
+        "type" : "application/json",
+        "size" : 159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element/0.872646226318444-2/element",
+      "time" : {
+        "start" : 1555526633663,
+        "stop" : 1555526633689,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7975c9e041e24db5",
+        "name" : "Request",
+        "source" : "7975c9e041e24db5.json",
+        "type" : "application/json",
+        "size" : 165
+      }, {
+        "uid" : "cd308a4f730f9ad1",
+        "name" : "Response",
+        "source" : "cd308a4f730f9ad1.json",
+        "type" : "application/json",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/34a45cc6d13eb08f859fb89599cafb05/element/0.872646226318444-3/click",
+      "time" : {
+        "start" : 1555526633690,
+        "stop" : 1555526633808,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "11d3d740272e2648",
+        "name" : "Response",
+        "source" : "11d3d740272e2648.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "End to end testing on BestBuy"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Performing a search operation and adding items to Cart, increasing quantity and clearing cart after"
+  }, {
+    "name" : "suite",
+    "value" : "End to end testing on BestBuy Performing a search operation and adding items to Cart, increasing quantity and clearing cart after"
+  }, {
+    "name" : "testClass",
+    "value" : "End to end testing on BestBuy Performing a search operation and adding items to Cart, increasing quantity and clearing cart after"
+  }, {
+    "name" : "testMethod",
+    "value" : "I change quantity amount to 4"
+  }, {
+    "name" : "package",
+    "value" : "End to end testing on BestBuy Performing a search operation and adding items to Cart, increasing quantity and clearing cart after"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3b9405722fc3992.json",
+  "parameterValues" : [ "chrome" ]
+}
