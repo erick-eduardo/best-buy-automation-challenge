@@ -1,6 +1,0 @@
-"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
-"","End to end testing on BestBuy","Performing a search operation and adding items to Cart, increasing quantity and clearing cart after","0","0","11","0","0"
-"","End to end testing on BestBuy","Performing a search operation and adding items to Cart","0","0","10","0","0"
-"","End to end testing on BestBuy","Performing a search operation and validating filters on side-bar","0","0","9","0","0"
-"","End to end testing on BestBuy","Performing a basic login and validating user","0","0","8","0","0"
-"","End to end testing on BestBuy","Performing a search operation and adding items to Saved Items section","0","0","11","0","0"
