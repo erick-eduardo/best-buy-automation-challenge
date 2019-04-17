@@ -17,15 +17,20 @@ This project is tested only on ***Node v8.15.1***.  While earlier versions of no
 Steps to run:
 
 1 - Navigate to the projects main folder (where package.json file is located) 
+
 2 - Open terminal on this folder
+
 3 - Run `npm install` to grab all dependencies.
+
 4 - Install Selenium running following commands:
 ```
   sudo npm install selenium-standalone@latest -g
   sudo selenium-standalone install
   selenium-standalone start
 ```
+
 5 - To execute the test suite, run `npm run test`
+
 
 Note: While installing through sudo command - you need to provide System admin password.
 
