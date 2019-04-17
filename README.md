@@ -10,67 +10,39 @@ Video Run can be found here:
 http://recordit.co/Cao4XPDoTX
 
 
-### Installation
+### Installing and running tests
 
 This project is tested only on ***Node v8.15.1***.  While earlier versions of node may be compatible, they have not been tested or verified.
 
-`JDK 1.8:` Install JDK 1.8+ and make sure class path is set properly. JAVA is require to start `Selenium Server` nothing else.
+Steps to run:
 
-`Node.JS:` Install  from the site - https://nodejs.org/en/  take the LTS version based on your Operating system. Please make sure you install NodeJS globally.
+1 - Navigate to the projects main folder (where `package.json` file is located) 
 
-Once installation is done - open terminal (MAC OSX) or command prompt (for windows OS) and type below command to verify NodeJS has been installed properly.
+2 - Open terminal on this folder
 
-        node --version
-        npm --version
+3 - Run `npm install` to grab all dependencies.
 
-Above command should print out the version that you have installed.
-
-Now navigate to the framework's package.json folder and run `npm install` to grab all dependencies.
-
-### Requirements
-
-  To run your test You must have Selenium server up and running to execute any WebdriverIO tests, or it will fail fast with an error. There are two ways you can run selenium.
-
-  Once all the node dependency modules are installed (through `npm install`) then for development, you can run  `npm run selenium-postinstall` followed by `npm run selenium-start` if you wish to start it manually else you can use `services: ['selenium-standalone'],` in .conf.js to start it automatically which has been added as part of this project. That's all there is to it.!. Please note that this step is only one time activity at the initial framework set up. Alternatively you can also use below options to start the selenium server.
-
-  1. Install Selenium (selenium-standalone) through NPM (this is the recommended way to install) as you can use it as a services in your framework without worrying to start the selenium server manually. Please note that you follow this below step if `selenium-standalone` package in not been installed through package manager. If you are behind a specific proxy, then in that case you need to set environment variables:
-
-  - On OSX:
-    - NODE_TLS_REJECT_UNAUTHORIZED=0
-
- - On Windows:
-    - setx NODE_TLS_REJECT_UNAUTHORIZED 0
-
+4 - Install Selenium running following commands:
 ```
   sudo npm install selenium-standalone@latest -g
   sudo selenium-standalone install
   selenium-standalone start
 ```
-  OR
 
-  2. Download the latest selenium standalone server version: and then for example
-    $ java -jar selenium-server-standalone-3.4.0.jar. This option is require if you have not done the step No-1. Else ignore it. this is the other way of doing.
+5 - To execute the test suite, run `npm run test`
 
-  Note: While installing through sudo command - you need to provide System admin password. On windows don't use `sudo`
+Note: While installing through sudo command - you need to provide System admin password.
 
-### How to run the tests
+##### Reports and results with Allure
 
-To execute the entire test suite in local development, you can use the below command
+To generate and view an allure report locally, ****AFTER RUNNING TESTS***, run `npm run allure-report`. 
 
-`npm run test`
+The Allure report created will be this one:
 
-### Reporters
-
-WebdriverIO uses several different types of test reporters to communicate pass/failure.  
-
-##### Allure
-
-To generate and view an allure report locally, run `npm run allure-report`. The Allure report created will be this one:
-
-![](https://i.snag.gy/GcvUsI.jpg =450x)
+<img src="https://i.snag.gy/GcvUsI.jpg" width="650px">
 
 
-##### Using Cucumber JavaScript framework
+##### About Cucumber JavaScript framework
 
 Tests are written in the Cucumber framework using the Gherkin Syntax.
 
