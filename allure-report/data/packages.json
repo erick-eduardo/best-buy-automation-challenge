@@ -1,0 +1,613 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "End to end testing on BestBuy Performing a basic login and validating user",
+    "children" : [ {
+      "name" : "I am on the home page",
+      "uid" : "887bce3d9e8d6f38",
+      "parentUid" : "8d6345df2c3fb36a7df6e5fc76302d26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526511688,
+        "stop" : 1555526521004,
+        "duration" : 9316
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Sign In button on home",
+      "uid" : "f187b4f18e0e404d",
+      "parentUid" : "8d6345df2c3fb36a7df6e5fc76302d26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526522022,
+        "stop" : 1555526526147,
+        "duration" : 4125
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I fill Email Address input with erick@oktana.io",
+      "uid" : "1a14293b345db79",
+      "parentUid" : "8d6345df2c3fb36a7df6e5fc76302d26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526526150,
+        "stop" : 1555526526527,
+        "duration" : 377
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I fill Password input with Oktana2019",
+      "uid" : "881aede071805bbf",
+      "parentUid" : "8d6345df2c3fb36a7df6e5fc76302d26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526526528,
+        "stop" : 1555526526764,
+        "duration" : 236
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Sign In button",
+      "uid" : "4a8a87a677420e83",
+      "parentUid" : "8d6345df2c3fb36a7df6e5fc76302d26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526526767,
+        "stop" : 1555526526917,
+        "duration" : 150
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Account menu link",
+      "uid" : "22b0de58591e32f3",
+      "parentUid" : "8d6345df2c3fb36a7df6e5fc76302d26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526526920,
+        "stop" : 1555526531539,
+        "duration" : 4619
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Account Home link",
+      "uid" : "aaac47ba8f148fdf",
+      "parentUid" : "8d6345df2c3fb36a7df6e5fc76302d26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526531541,
+        "stop" : 1555526543258,
+        "duration" : 11717
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I validate username is Test and log it to console",
+      "uid" : "57d40d833254efe9",
+      "parentUid" : "8d6345df2c3fb36a7df6e5fc76302d26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526543260,
+        "stop" : 1555526543421,
+        "duration" : 161
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "8d6345df2c3fb36a7df6e5fc76302d26"
+  }, {
+    "name" : "End to end testing on BestBuy Performing a search operation and adding items to Saved Items section",
+    "children" : [ {
+      "name" : "I am on the home page",
+      "uid" : "6969480519e02576",
+      "parentUid" : "866dadbedc1ca9a412cd80c152d9cc3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526543480,
+        "stop" : 1555526544847,
+        "duration" : 1367
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I fill Search input with Xbox One X",
+      "uid" : "fe835dadc12aa7fd",
+      "parentUid" : "866dadbedc1ca9a412cd80c152d9cc3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526544849,
+        "stop" : 1555526546717,
+        "duration" : 1868
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Search button",
+      "uid" : "68cd493318fd56d",
+      "parentUid" : "866dadbedc1ca9a412cd80c152d9cc3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526546719,
+        "stop" : 1555526552751,
+        "duration" : 6032
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see a list of search results",
+      "uid" : "48b4c543b15db1d3",
+      "parentUid" : "866dadbedc1ca9a412cd80c152d9cc3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526552753,
+        "stop" : 1555526560202,
+        "duration" : 7449
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I sort results by Customer Rating",
+      "uid" : "96bffaf2fabdb0c7",
+      "parentUid" : "866dadbedc1ca9a412cd80c152d9cc3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526560203,
+        "stop" : 1555526562924,
+        "duration" : 2721
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I log the first result to console",
+      "uid" : "c578f0aa0cc97c9c",
+      "parentUid" : "866dadbedc1ca9a412cd80c152d9cc3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526562925,
+        "stop" : 1555526565303,
+        "duration" : 2378
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Save link on first item",
+      "uid" : "3eebae217328b193",
+      "parentUid" : "866dadbedc1ca9a412cd80c152d9cc3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526565303,
+        "stop" : 1555526567716,
+        "duration" : 2413
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Saved Items menu link",
+      "uid" : "4960ab53a044f93c",
+      "parentUid" : "866dadbedc1ca9a412cd80c152d9cc3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526567718,
+        "stop" : 1555526569177,
+        "duration" : 1459
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I validate item is added to saved items and log it to console",
+      "uid" : "d77f6c0fbe558058",
+      "parentUid" : "866dadbedc1ca9a412cd80c152d9cc3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526569178,
+        "stop" : 1555526569790,
+        "duration" : 612
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I delete added item from Saved Items",
+      "uid" : "a422f12e9f158267",
+      "parentUid" : "866dadbedc1ca9a412cd80c152d9cc3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526569791,
+        "stop" : 1555526569900,
+        "duration" : 109
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I validate list is empty",
+      "uid" : "ecc4674835d49b35",
+      "parentUid" : "866dadbedc1ca9a412cd80c152d9cc3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526569901,
+        "stop" : 1555526570980,
+        "duration" : 1079
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "866dadbedc1ca9a412cd80c152d9cc3e"
+  }, {
+    "name" : "End to end testing on BestBuy Performing a search operation and adding items to Cart",
+    "children" : [ {
+      "name" : "I am on the home page",
+      "uid" : "53282130244e6333",
+      "parentUid" : "e047558edf39cc209696147abff7d3be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526571321,
+        "stop" : 1555526572672,
+        "duration" : 1351
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I fill Search input with PlayStation 4 Pro",
+      "uid" : "14c53e603e992288",
+      "parentUid" : "e047558edf39cc209696147abff7d3be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526572673,
+        "stop" : 1555526573885,
+        "duration" : 1212
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Search button",
+      "uid" : "d4bdd652534bfb5c",
+      "parentUid" : "e047558edf39cc209696147abff7d3be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526573887,
+        "stop" : 1555526579300,
+        "duration" : 5413
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see a list of search results",
+      "uid" : "5c76ccf5e0a288d4",
+      "parentUid" : "e047558edf39cc209696147abff7d3be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526579302,
+        "stop" : 1555526592856,
+        "duration" : 13554
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I sort results by Price High to Low",
+      "uid" : "2947e1049dfc92c7",
+      "parentUid" : "e047558edf39cc209696147abff7d3be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526592857,
+        "stop" : 1555526598367,
+        "duration" : 5510
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Add to Cart button on first item",
+      "uid" : "787d402f93a348d0",
+      "parentUid" : "e047558edf39cc209696147abff7d3be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526598368,
+        "stop" : 1555526602442,
+        "duration" : 4074
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Go to cart link on confirmation modal",
+      "uid" : "c3a875ecd0679f80",
+      "parentUid" : "e047558edf39cc209696147abff7d3be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526602443,
+        "stop" : 1555526605212,
+        "duration" : 2769
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I validate item PlayStation 4 Pro is on cart",
+      "uid" : "6e484d451ce8ab3c",
+      "parentUid" : "e047558edf39cc209696147abff7d3be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526605213,
+        "stop" : 1555526605324,
+        "duration" : 111
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I remove added item from cart",
+      "uid" : "f1052c891482c8d",
+      "parentUid" : "e047558edf39cc209696147abff7d3be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526605325,
+        "stop" : 1555526605470,
+        "duration" : 145
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I validate cart is empty",
+      "uid" : "21f116fa92a27386",
+      "parentUid" : "e047558edf39cc209696147abff7d3be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526605471,
+        "stop" : 1555526606055,
+        "duration" : 584
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "e047558edf39cc209696147abff7d3be"
+  }, {
+    "name" : "End to end testing on BestBuy Performing a search operation and adding items to Cart, increasing quantity and clearing cart after",
+    "children" : [ {
+      "name" : "I am on the home page",
+      "uid" : "563b2188f0000655",
+      "parentUid" : "181cbaf9bb3dde03897938929233a6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526606551,
+        "stop" : 1555526607799,
+        "duration" : 1248
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I fill Search input with Chromecast",
+      "uid" : "4221d1caa21d07f9",
+      "parentUid" : "181cbaf9bb3dde03897938929233a6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526607800,
+        "stop" : 1555526609679,
+        "duration" : 1879
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Search button",
+      "uid" : "5106e954779bf810",
+      "parentUid" : "181cbaf9bb3dde03897938929233a6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526609680,
+        "stop" : 1555526614060,
+        "duration" : 4380
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see a list of search results",
+      "uid" : "5f8447f6add42f51",
+      "parentUid" : "181cbaf9bb3dde03897938929233a6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526614062,
+        "stop" : 1555526622911,
+        "duration" : 8849
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Add to Cart button on first item",
+      "uid" : "669f64ef35533c0a",
+      "parentUid" : "181cbaf9bb3dde03897938929233a6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526622948,
+        "stop" : 1555526630200,
+        "duration" : 7252
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Go to cart link on confirmation modal",
+      "uid" : "47d84d30d299703b",
+      "parentUid" : "181cbaf9bb3dde03897938929233a6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526630201,
+        "stop" : 1555526633522,
+        "duration" : 3321
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I validate item Chromecast is on cart",
+      "uid" : "e9055a12306a4e11",
+      "parentUid" : "181cbaf9bb3dde03897938929233a6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526633523,
+        "stop" : 1555526633617,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I change quantity amount to 4",
+      "uid" : "a3b9405722fc3992",
+      "parentUid" : "181cbaf9bb3dde03897938929233a6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526633618,
+        "stop" : 1555526633810,
+        "duration" : 192
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I log price and savings",
+      "uid" : "7dd971498e0653ee",
+      "parentUid" : "181cbaf9bb3dde03897938929233a6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526633812,
+        "stop" : 1555526636350,
+        "duration" : 2538
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I remove added item from cart",
+      "uid" : "1df03b861e67c0cb",
+      "parentUid" : "181cbaf9bb3dde03897938929233a6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526636351,
+        "stop" : 1555526637338,
+        "duration" : 987
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I validate cart is empty",
+      "uid" : "7c550a83fd9fdc1e",
+      "parentUid" : "181cbaf9bb3dde03897938929233a6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526637339,
+        "stop" : 1555526637420,
+        "duration" : 81
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "181cbaf9bb3dde03897938929233a6a3"
+  }, {
+    "name" : "End to end testing on BestBuy Performing a search operation and validating filters on side-bar",
+    "children" : [ {
+      "name" : "I select Price Drop on filters",
+      "uid" : "b4a281879a552a5f",
+      "parentUid" : "6695447de13e94b3d51ac68b6ea67c27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526663896,
+        "stop" : 1555526664066,
+        "duration" : 170
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I am on the home page",
+      "uid" : "5d158015e87f18f1",
+      "parentUid" : "6695447de13e94b3d51ac68b6ea67c27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526671926,
+        "stop" : 1555526673092,
+        "duration" : 1166
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I fill Search input with Nintendo Switch",
+      "uid" : "224cb2bc4dd0ee30",
+      "parentUid" : "6695447de13e94b3d51ac68b6ea67c27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526673093,
+        "stop" : 1555526675173,
+        "duration" : 2080
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click Search button",
+      "uid" : "46f0a9ef1ef2c362",
+      "parentUid" : "6695447de13e94b3d51ac68b6ea67c27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526675175,
+        "stop" : 1555526678388,
+        "duration" : 3213
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should see a list of search results",
+      "uid" : "7225dc2e48fec47d",
+      "parentUid" : "6695447de13e94b3d51ac68b6ea67c27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526678389,
+        "stop" : 1555526680202,
+        "duration" : 1813
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I sort results by Best Selling",
+      "uid" : "b006b411d78685f7",
+      "parentUid" : "6695447de13e94b3d51ac68b6ea67c27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526680203,
+        "stop" : 1555526683012,
+        "duration" : 2809
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I select Top-Rated on filters",
+      "uid" : "fd20bf237f452f1f",
+      "parentUid" : "6695447de13e94b3d51ac68b6ea67c27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526683013,
+        "stop" : 1555526683375,
+        "duration" : 362
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should log Price Drop for first item",
+      "uid" : "d9ffb102e0ebc652",
+      "parentUid" : "6695447de13e94b3d51ac68b6ea67c27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526683377,
+        "stop" : 1555526685679,
+        "duration" : 2302
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I should log Rating for first item",
+      "uid" : "b80b5e1dd1b6981a",
+      "parentUid" : "6695447de13e94b3d51ac68b6ea67c27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555526685680,
+        "stop" : 1555526735763,
+        "duration" : 50083
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "6695447de13e94b3d51ac68b6ea67c27"
+  } ]
+}
