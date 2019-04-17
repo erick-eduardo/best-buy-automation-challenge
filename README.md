@@ -9,6 +9,10 @@ Video Run can be found here:
 
 http://recordit.co/Cao4XPDoTX
 
+Test Plan can be found here:
+
+<a href="https://github.com/erick-eduardo/best-buy-automation-challenge/blob/master/Best_Buy-Test_Plan.pdf" alt="Test Plan">Test Plan</a>
+
 
 ### Installing and running tests
 
@@ -35,7 +39,7 @@ Note: While installing through sudo command - you need to provide System admin p
 
 ##### Reports and results with Allure
 
-To generate and view an allure report locally, ****AFTER RUNNING TESTS***, run `npm run allure-report`. 
+To generate and view an allure report locally, ***AFTER RUNNING TESTS***, run `npm run allure-report`. 
 
 The Allure report created will be this one:
 
