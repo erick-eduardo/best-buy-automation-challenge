@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="end_to_end_testing_on_bestbuy1" timestamp="2019-04-23T18:00:06" time="61.744" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="9ebda2477158a18ec7581697affd2221"/>
+      <property name="suiteName" value="End to end testing on BestBuy1"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+  </testsuite>
+  <testsuite name="performing_a_search_operation_and_validating_filters_on_side_bar21" timestamp="2019-04-23T18:00:06" time="41.5" tests="8" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="9ebda2477158a18ec7581697affd2221"/>
+      <property name="suiteName" value="Performing a search operation and validating filters on side-bar21"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar21" name="I am on the home page8" time="61.796"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar21" name="I fill Search input with Nintendo Switch11" time="51.887"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar21" name="I click Search button12" time="48.625"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar21" name="I should see a list of search results13" time="40.951"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar21" name="I sort results by Best Selling14" time="39.59"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar21" name="I select Price Drop on filters15" time="38.892"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar21" name="I should log Price Drop for first item16" time="38.626"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar21" name="I should log Rating for first item17" time="27.396"/>
+  </testsuite>
+  <testsuite name="performing_a_search_operation_and_validating_filters_on_side_bar22" timestamp="2019-04-23T18:00:48" time="19.236" tests="8" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="9ebda2477158a18ec7581697affd2221"/>
+      <property name="suiteName" value="Performing a search operation and validating filters on side-bar22"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar22" name="I am on the home page8" time="19.511"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar22" name="I fill Search input with Nintendo Switch11" time="16.673"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar22" name="I click Search button12" time="14.987"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar22" name="I should see a list of search results13" time="9.176"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar22" name="I sort results by Best Selling14" time="7.787"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar22" name="I select Top-Rated on filters15" time="6.374"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar22" name="I should log Price Drop for first item16" time="6.104"/>
+    <testcase classname="chrome.Performing a search operation and validating filters on side-bar22" name="I should log Rating for first item17" time="5.685"/>
+  </testsuite>
+</testsuites>

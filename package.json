@@ -1,6 +1,6 @@
 {
   "name": "automation-challenge",
-  "version": "1.1.5",  
+  "version": "1.1.5",
   "main": "index.js",
   "scripts": {
     "node-inspector": "node-inspector --debug-port 5859 --no-preload",
@@ -8,10 +8,12 @@
     "selenium-start": "node_modules/.bin/selenium-standalone start",
     "test": "rm -rf -d ./test/reports/allure-results/ ; node node_modules/webdriverio/bin/wdio ./test/config/suite.cucumber.conf.js",
     "allure-report": "node_modules/.bin/allure generate ./test/reports/allure-results -c && allure open",
-    "junit-report": "node_modules/.bin/junit-viewer --results=./test/reports/junit-results --save=junit-results.html && open junit-results.html"
+    "junit-report": "node_modules/.bin/junit-viewer --results=./test/reports/junit-results --save=junit-results.html && open junit-results.html",
+    "test-mobile": "node node_modules/webdriverio/bin/wdio ./test/config/suite.appium.conf.js"
   },
   "keywords": [
-    "selenium",    
+    "selenium",
+    "appium",
     "web",
     "testing",
     "webdriverjs",
@@ -21,7 +23,8 @@
   "author": "Erick Pereira <erick@oktana.io>",
   "license": "ISC",
   "dependencies": {
-    "allure-commandline": "^2.5.0",    
+    "allure-commandline": "^2.5.0",
+    "appium": "^1.12.1",
     "assert": "^1.4.1",
     "babel-preset-env": "^1.6.0",
     "babel-register": "^6.26.0",
@@ -54,15 +57,23 @@
     "grunt-cli": "^0.1.13",
     "grunt-cucumberjs": "^0.8.7",
     "node-uuid": "^1.4.7",
-    "selenium-standalone": "^6.8.0",
-    "wdio-cucumber-framework": "^1.0.2",    
+    "selenium-standalone": "^6.16.0",
+    "wdio-appium-service": "^0.2.3",
+    "wdio-cucumber-framework": "^1.0.2",
     "wdio-sauce-service": "^0.2.2",
     "wdio-screenshot": "^0.5.0",
     "wdio-selenium-standalone-service": "^0.0.10"
   },
   "babel": {
     "presets": [
-        ["env", { "targets": {"node": "current"}}]
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
       ]
+    ]
   }
 }

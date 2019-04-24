@@ -16,8 +16,10 @@ class HomePage extends Page {
   get mainDiv() { return browser.element('#site-control-content') }
   get passwordInput() { return browser.element("#fld-p1") }
   get savedItemsMenuLink() { return browser.element("#hf_listsMenuLink") }
-  get searchButton() { return browser.element(".header-search-button") }
-  get searchInput() { return browser.element("#gh-search-input") }
+  get searchButton() { return browser.element("hf-icon-search") }
+  
+  //Changed from "#gh-search-input" to "input[name='st']" in order to work on mobile
+  get searchInput() { return browser.element("input[name='st']") }
   get signInButton() { return browser.element(".cia-form__submit-button") }
   get signInHomeButton() { return browser.element(".lam-signIn__button") }
   //Refers to picking USA when opening page
@@ -39,8 +41,10 @@ class HomePage extends Page {
   }
 
   clickSearchButton() {
-    this.searchButton.waitForVisible()
-    this.searchButton.click()
+    if (!this.usLink.isVisible()) {
+      this.searchButton.waitForVisible()
+      this.searchButton.click()
+    }    
   }
 
   clickSignInButton() {
