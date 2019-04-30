@@ -2,8 +2,15 @@ import Page from './page';
 
 class HomePage extends Page {
 
-  /* Both variables and methods are sorted alphabetically */
+  /* MOBILE EXCLUSIVE VARIABLES */
+  get headerMenuOpenLink() { return browser.element("#menu2018-button") }
+  get signInLinkMobile() { return browser.element("div[aria-hidden='false'] a") }
+  get accountHomeLinkMobile() { return browser.element("div[aria-hidden='false'] a[data-lid='hdr_signin']") }
+  get searchInputMobile() { return browser.element(".search-input") }
+  get searchButtonMobile() { return browser.element(".header-search-button") }
+  get savedItemsMenuLinkMobile() { return browser.element("a[data-lid='hdr_saved']") }
 
+  /* Both variables and methods are sorted alphabetically */
   get accountHomeLink() { return browser.element("a[data-lid='ubr_mby_account_home_b']") }
   get accountMenuLink() { return browser.element("#hf_accountMenuLink") }
   get autocompleteContainerDiv() { return browser.element(".autocomplete-container") }
@@ -16,9 +23,7 @@ class HomePage extends Page {
   get mainDiv() { return browser.element('#site-control-content') }
   get passwordInput() { return browser.element("#fld-p1") }
   get savedItemsMenuLink() { return browser.element("#hf_listsMenuLink") }
-  get searchButton() { return browser.element("hf-icon-search") }
-  
-  //Changed from "#gh-search-input" to "input[name='st']" in order to work on mobile
+  get searchButton() { return browser.element(".hf-icon-search") }
   get searchInput() { return browser.element("input[name='st']") }
   get signInButton() { return browser.element(".cia-form__submit-button") }
   get signInHomeButton() { return browser.element(".lam-signIn__button") }
@@ -26,41 +31,76 @@ class HomePage extends Page {
   get usLink() { return browser.element(".us-link") }
 
   clickAccountHomeLink() {
-    this.accountHomeLink.waitForVisible()
-    this.accountHomeLink.click()
+    if (mobile) {
+      this.accountHomeLinkMobile.waitForVisible()
+      this.accountHomeLinkMobile.click()
+    }
+    else {
+      this.accountHomeLink.waitForVisible()
+      this.accountHomeLink.click()
+    }
   }
 
   clickAccountMenuLink() {
-    this.accountMenuLink.waitForVisible()
-    this.accountMenuLink.click()
+    if (mobile) {
+      //this.headerMenuOpenLink.waitForVisible()
+      this.headerMenuOpenLink.click()
+    }
+    else {
+      this.accountMenuLink.waitForVisible()
+      this.accountMenuLink.click()
+    }
   }
 
   clickSavedItemsMenuLink() {
-    this.savedItemsMenuLink.waitForVisible()
-    this.savedItemsMenuLink.click()
+    if (mobile) {
+      //this.headerMenuOpenLink.waitForVisible()
+      this.headerMenuOpenLink.click()
+      this.savedItemsMenuLinkMobile.waitForVisible()
+      this.savedItemsMenuLinkMobile.click()
+    }
+    else {
+      this.savedItemsMenuLink.waitForVisible()
+      this.savedItemsMenuLink.click()
+    }
   }
 
   clickSearchButton() {
-    if (!this.usLink.isVisible()) {
+    if (!this.usLink.isVisible() && !mobile) {
       this.searchButton.waitForVisible()
       this.searchButton.click()
-    }    
+    }
+    else {
+      this.searchButtonMobile.waitForVisible()
+      this.searchButtonMobile.click()
+    }
   }
 
   clickSignInButton() {
-    this.signInButton.waitForVisible()
+    //this.signInButton.waitForVisible()
     this.signInButton.click()
   }
 
   clickSignInHomeButton() {
-    this.signInHomeButton.waitForVisible()
-    this.signInHomeButton.click()
-    this.loginContentDiv.waitForVisible(5000)
+    if (mobile) {
+      this.signInLinkMobile.waitForVisible()
+      this.signInLinkMobile.click()
+    }
+    else {
+      this.signInHomeButton.waitForVisible()
+      this.signInHomeButton.click()
+      this.loginContentDiv.waitForVisible(5000)
+    }
   }
 
   fillEmailAddressInput(email) {
+
     this.emailAddressInput.waitForVisible()
-    this.emailAddressInput.clearElement()
+
+    if (!mobile) {
+      this.emailAddressInput.clearElement()
+    }
+
     this.emailAddressInput.setValue(email)
   }
 
@@ -71,12 +111,18 @@ class HomePage extends Page {
   }
 
   fillSearchInput(searchItem) {
-    this.searchInput.waitForVisible()
-    this.searchInput.clearElement()
-    this.searchInput.setValue(searchItem)
-    //This is to wait for the autocomplete div to load avoiding incomplete search
-    this.autocompleteContainerDiv.waitForVisible(6000)
-
+    if (mobile) {
+      this.searchInput.click()
+      this.searchInputMobile.waitForVisible()
+      this.searchInputMobile.setValue(searchItem)
+    }
+    else {
+      this.searchInput.waitForVisible()
+      this.searchInput.clearElement()
+      this.searchInput.setValue(searchItem)
+      //This is to wait for the autocomplete div to load avoiding incomplete search
+      this.autocompleteContainerDiv.waitForVisible(6000)
+    }
   }
 
   open() {

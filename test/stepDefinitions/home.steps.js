@@ -43,6 +43,11 @@ defineSupportCode(function ({ Given, When }) {
 
   When(/^I fill Search input with ([^"]*)$/, function (searchItem) {
     homePage.fillSearchInput(searchItem)
-    homePage.searchInput.getValue().should.equal(searchItem)
+    if (mobile) {
+      homePage.searchInputMobile.getValue().should.equal(searchItem)
+    }
+    else {
+      homePage.searchInput.getValue().should.equal(searchItem)
+    }
   })
 })

@@ -7,16 +7,18 @@ Feature: End to end testing on BestBuy
 
         Given I am on the home page
 
-    Scenario Outline: Performing a basic login and validating user
-        When I click Account menu link
-        And I click Sign In button on home
-        And I fill Email Address input with <email>
-        And I fill Password input with <password>
-        And I click Sign In button
-        And I click Account menu link
-        And I click Account Home link
-        Then I validate username is <username> and log it to console
+Scenario Outline: Performing a search operation and adding items to Saved Items section
+        When I fill Search input with <searchItem>
+        And I click Search button
+        And I should see a list of search results
+        And I sort results by <sortBy>
+        And I log the first result to console
+        And I click Save link on first item
+        And I click Saved Items menu link
+        And I validate item is added to saved items and log it to console
+        Then I delete added item from Saved Items
+        And I validate list is empty
 
         Examples:
-        | email           | password   | username |
-        | erick@oktana.io | Oktana2019 | Test     |
+        | searchItem  | sortBy          |
+        | Xbox One X  | Customer Rating |

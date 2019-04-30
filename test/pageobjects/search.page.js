@@ -10,6 +10,12 @@ class SearchPage {
   get saveForLaterListButton() { return browser.elements(".sku-item .save-for-later-save") }
   get sortBySelect() { return browser.element("#sort-by-select") }
 
+  /* Variables for mobile */
+  get openSortMenuMobile() { return browser.element(".filter-chicklet") }
+  get sortBySelectMobile() { return browser.element("#sort-dropdown") }
+  get showResultsButtonMobile() { return browser.element(".show-results-btn") }
+
+
   clickAddToCartFirstItem() {
     this.addToCartListButton.waitForVisible()
     this.addToCartListButton.value[0].click()
@@ -49,8 +55,18 @@ class SearchPage {
   }
 
   sortResultsBy(sortBy) {
-    this.sortBySelect.selectByVisibleText(sortBy)
-    this.resultsListLi.waitForVisible()
+    if (mobile) {
+      this.openSortMenuMobile.waitForVisible()
+      this.openSortMenuMobile.click()
+      this.sortBySelectMobile.selectByVisibleText(sortBy)
+      this.showResultsButtonMobile.waitForVisible()
+      this.showResultsButtonMobile.click()
+      this.resultsListLi.waitForVisible()
+    }
+    else {
+      this.sortBySelect.selectByVisibleText(sortBy)
+      this.resultsListLi.waitForVisible()
+    }
   }
 
   validateFirstResult() {

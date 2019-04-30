@@ -6,10 +6,10 @@
     "node-inspector": "node-inspector --debug-port 5859 --no-preload",
     "selenium-postinstall": "node node_modules/.bin/selenium-standalone install",
     "selenium-start": "node_modules/.bin/selenium-standalone start",
-    "test": "rm -rf -d ./test/reports/allure-results/ ; node node_modules/webdriverio/bin/wdio ./test/config/suite.cucumber.conf.js",
+    "test": "node node_modules/webdriverio/bin/wdio ./test/config/suite.cucumber.conf.js",
+    "test-mobile": "node node_modules/webdriverio/bin/wdio ./test/config/suite.appium.conf.js",
     "allure-report": "node_modules/.bin/allure generate ./test/reports/allure-results -c && allure open",
-    "junit-report": "node_modules/.bin/junit-viewer --results=./test/reports/junit-results --save=junit-results.html && open junit-results.html",
-    "test-mobile": "node node_modules/webdriverio/bin/wdio ./test/config/suite.appium.conf.js"
+    "junit-report": "node_modules/.bin/junit-viewer --results=./test/reports/junit-results --save=junit-results.html && open junit-results.html"    
   },
   "keywords": [
     "selenium",
@@ -59,7 +59,7 @@
     "node-uuid": "^1.4.7",
     "selenium-standalone": "^6.16.0",
     "wdio-appium-service": "^0.2.3",
-    "wdio-cucumber-framework": "^1.0.2",
+    "wdio-cucumber-framework": "^2.2.8",
     "wdio-sauce-service": "^0.2.2",
     "wdio-screenshot": "^0.5.0",
     "wdio-selenium-standalone-service": "^0.0.10"

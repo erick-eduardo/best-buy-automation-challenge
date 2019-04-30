@@ -150,6 +150,7 @@ exports.config = {
       global.expect = chai.expect;
       global.assert = chai.assert;
       global.should = chai.should();
+      global.mobile = true;
     },
     //
     // after: function (capabilities, specs) {
